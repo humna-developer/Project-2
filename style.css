@@ -1,0 +1,136 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.b{
+    border: 1px solid red;
+    
+}
+.container-fluid2{
+    height: 700px;
+    background-image: url(header.jpg);
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* .dark-overlay{
+    top: 0px;
+    left: 0px;
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.3;
+    position: absolute;
+} */
+.header-part1{
+    margin-top:155px;
+}
+.heading{
+    font-family: 'Fredoka One', cursive;
+    font-size: 90px;
+}
+.text{
+    font-family: 'Noto Serif JP', serif;
+    font-size: 15px;
+}
+.btn-color{
+    background-color:rgb(255,204,0);
+    border-radius: 2px;
+    padding: 5px 25px;
+    color: white;
+    
+}
+.card-css{
+    width: 62%;
+    margin-top: 150px;
+    background-color: rgb(240, 239, 233);
+}
+.margin100{
+    margin-top: 100px;
+}
+.container-css{
+    height: 400px;
+}
+.align-center{
+    text-align: center;
+}
+.header2{
+    background-image: url(header2.jpg);
+    height: 650px;
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 100px;
+    
+}
+.margin2{
+    height: 650px;
+    padding: 100px 0px;
+}
+.align{
+    text-align: center;
+}
+.header3{
+    background-image: url(pic4.jpg);
+    height: 650px;
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 100px;  
+}
+.padding{
+    padding: 30px 130px;
+}
+.marginadjust{
+    margin: 50px 100px;
+    border-radius: 6px;
+    background-color: rgba(177, 169, 169, 0.349);
+    overflow:scroll;
+}
+.bg{
+    background-color:rgb(255,204,0);
+    height: 100px;
+}
+.bg1{
+    background-color:rgb(255,204,0);
+    height: 7px;
+}
+.border1{
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+}
+.header-ani{
+    animation: swipe-right 2s 1 alternate;
+    animation-name: swipe-right;
+    animation-delay: 0s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+}
+@keyframes swipe-right {
+    from {
+        transform: translateX(-800px);
+        opacity: 0%;
+     }
+     to {
+        transform: translateX(0px);
+     }
+}
+.header-form-ani{
+    animation: zoom 3s 1 alternate;
+    animation-timing-function: ease-out;
+}
+@keyframes zoom {
+    from {
+        opacity: 0%;
+}
+     to {
+        opacity: 100%;
+}
+}
+
